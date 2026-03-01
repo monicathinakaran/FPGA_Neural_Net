@@ -1,4 +1,4 @@
-# Vivado junk files to ignore
+# Block all Vivado project files and caches
 *.jou
 *.log
 *.pb
@@ -6,8 +6,10 @@
 *.wcfg
 *.str
 .Xil/
-*vivado*
-*.sim/
 *.cache/
 *.hw/
 *.ip_user_files/
+*.sim/
+NeuralNet_Accelerator/
+__pycache__/
+python_model/data/
