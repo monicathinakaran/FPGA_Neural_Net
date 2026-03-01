@@ -1,0 +1,13 @@
+# Vivado junk files to ignore
+*.jou
+*.log
+*.pb
+*.wdb
+*.wcfg
+*.str
+.Xil/
+*vivado*
+*.sim/
+*.cache/
+*.hw/
+*.ip_user_files/
