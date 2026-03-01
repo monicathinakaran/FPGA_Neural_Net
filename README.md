@@ -24,4 +24,4 @@ Synthesized using Xilinx Vivado for the Artix-7 architecture (xc7a35tcpg236-1). 
 ## Verification
 The design was verified using behavioral simulation in Vivado (`top_tb.v`). The hardware successfully mirrored the mathematical operations of the PyTorch golden model, executing 784 MAC operations and accurately asserting the `done` signal upon completion.
 
-![Simulation Waveform](images/simulation_waveform.png)
+![Simulation Waveform](images/waveform.png)
